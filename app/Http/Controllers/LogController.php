@@ -21,7 +21,8 @@ class LogController extends Controller
      */
     public function index()
     {
-        //
+        $logs = $this->logRepository->getAll();
+        return LogResource::collection($logs);
     }
 
     /**

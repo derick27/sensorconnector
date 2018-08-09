@@ -12,6 +12,11 @@ class LogRepository
         $this->log = $log;
     }
 
+    public function getAll()
+    {
+        return Log::all();
+    }
+
     /**
      * @param $log
      * @return mixed
