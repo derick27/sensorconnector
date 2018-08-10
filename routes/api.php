@@ -17,6 +17,5 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-Route::post('sensor', function () {
-    return ['status' => 'success', 'message' => 'data received'];
-});
+Route::get('logs', 'LogController@index');
+Route::post('log', 'LogController@store');

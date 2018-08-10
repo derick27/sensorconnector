@@ -46,8 +46,8 @@ return [
             'connection' => 'default',
         ],
 
-        'log' => [
-            'driver' => 'log',
+        'LogRepository' => [
+            'driver' => 'LogRepository',
         ],
 
         'null' => [
