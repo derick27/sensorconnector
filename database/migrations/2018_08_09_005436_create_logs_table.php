@@ -13,17 +13,17 @@ class CreateLogsTable extends Migration
      */
     public function up()
     {
-        Schema::create('logs', function (Blueprint $table) {
+        Schema::create ('logs', function (Blueprint $table) {
             $table->increments('id');
             $table->string('version', 50);
-            $table->string('eui', 50);
-            $table->string('packet', 50);
-            $table->string('packet_time', 50);
-            $table->string('serial_number', 50);
-            $table->integer('level')->unsigned();
-            $table->integer('battery')->unsigned();
+            $table->string('loraDevEui', 50);
+            $table->string('loraPacketSequenceNumber', 50);
+            $table->string('packetTimestamp', 50);
+            $table->string('deviceSerialNumber', 50);
+            $table->integer('tankLevel')->unsigned();
+            $table->integer('batteryVoltage')->unsigned();
             $table->integer('temperature')->unsigned();
-            $table->string('payload', 100);
+            $table->string('rawPayloadBytes', 100);
             $table->timestamps();
         });
     }

@@ -8,13 +8,13 @@ class Log extends Model
 {
     protected $fillable = [
         'version',
-        'eui',
-        'packet',
-        'packet_time',
-        'serial_number',
-        'level',
-        'battery',
+        'loraDevEui',
+        'loraPacketSequenceNumber',
+        'packetTimestamp',
+        'deviceSerialNumber',
+        'tankLevel',
+        'batteryVoltage',
         'temperature',
-        'payload',
+        'rawPayloadBytes',
     ];
 }
