@@ -1,3 +1,4 @@
+<html>
 <head>
 </head>
 <body>
@@ -13,9 +14,7 @@ $loaddata ="SELECT * FROM capteur_data";
 $caresults = mysqli_query($con,$loaddata);
 $count = mysqli_num_rows($results);
 echo $count .'<br>';
-
 while($row = mysqli_fetch_array($results)){
-	
 	$id= $row["id"];
 	$version =$row ["version"];
 	$mac= $row["loraDevEui"];

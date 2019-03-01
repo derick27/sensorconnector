@@ -1,0 +1,296 @@
+
+*** These modified files were found in JOE when it aborted on Fri Aug 31 16:45:28 2018
+*** JOE was aborted by UNIX signal 1
+
+*** File '(Unnamed)'
+/var/www/html/sensorconnector/.git/COMMIT_EDITMSG
+
+*** File '/var/www/html/sensorconnector/.git/COMMIT_EDITMSG'
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch master
+# Your branch is up to date with 'origin/master'.
+#
+# Changes to be committed:
+#	modified:   app/Models/Log.php
+#	modified:   config/app.php
+#	modified:   database/migrations/2018_08_09_005436_create_logs_table.php
+#	new file:   drop
+#	new file:   public/css/.DS_Store
+#	new file:   public/css/1bootstrap.min.css
+#	deleted:    public/css/app.css
+#	new file:   public/css/bootstrap-grid.css
+#	new file:   public/css/bootstrap-grid.css.map
+#	new file:   public/css/bootstrap-grid.min.css
+#	new file:   public/css/bootstrap-grid.min.css.map
+#	new file:   public/css/bootstrap-reboot.css
+#	new file:   public/css/bootstrap-reboot.css.map
+#	new file:   public/css/bootstrap-reboot.min.css
+#	new file:   public/css/bootstrap-reboot.min.css.map
+#	new file:   public/css/bootstrap-responsive.min.css
+#	new file:   public/css/bootstrap.css
+#	new file:   public/css/bootstrap.css.map
+#	new file:   public/css/bootstrap.min.css
+#	new file:   public/css/bootstrap.min.css.map
+#	new file:   public/css/custom.css
+#	new file:   public/css/form.css
+#	new file:   public/css/mystyle.css
+#	new file:   public/css/style.css
+#	new file:   public/js/1bootstrap.min.js
+#	deleted:    public/js/app.js
+#	new file:   public/js/bootstrap.bundle.js
+#	new file:   public/js/bootstrap.bundle.js.map
+#	new file:   public/js/bootstrap.bundle.min.js
+#	new file:   public/js/bootstrap.bundle.min.js.map
+#	new file:   public/js/bootstrap.js
+#	new file:   public/js/bootstrap.js.map
+#	new file:   public/js/bootstrap.min.js
+#	new file:   public/js/bootstrap.min.js.map
+#	new file:   public/js/form.js
+#	new file:   public/js/jquery-3.3.1.min.js
+#	new file:   public/js/jquery.min.js
+#	new file:   public/js/popper.min.js
+#	new file:   public/php/capteur.php
+#	new file:   public/php/client.php
+#	new file:   public/php/dbconnector.php
+#	new file:   public/php/load.php
+#	new file:   public/php/silo.php
+#	new file:   public/scripts/.DS_Store
+#	new file:   public/scripts/bootstrap/.DS_Store
+#	new file:   public/scripts/bootstrap/css/bootstrap-responsive.css
+#	new file:   public/scripts/bootstrap/css/bootstrap-responsive.min.css
+#	new file:   public/scripts/bootstrap/css/bootstrap.css
+#	new file:   public/scripts/bootstrap/css/bootstrap.min.css
+#	new file:   public/scripts/bootstrap/img/glyphicons-halflings-white.png
+#	new file:   public/scripts/bootstrap/img/glyphicons-halflings.png
+#	new file:   public/scripts/bootstrap/js/bootstrap.js
+#	new file:   public/scripts/bootstrap/js/bootstrap.min.js
+#	new file:   public/scripts/camera/.DS_Store
+#	new file:   public/scripts/camera/css/camera.css
+#	new file:   public/scripts/camera/images/blank.gif
+#	new file:   public/scripts/camera/images/camera-loader.gif
+#	new file:   public/scripts/camera/images/camera_skins.png
+#	new file:   public/scripts/camera/images/patterns/overlay1.png
+#	new file:   public/scripts/camera/images/patterns/overlay10.png
+#	new file:   public/scripts/camera/images/patterns/overlay2.png
+#	new file:   public/scripts/camera/images/patterns/overlay3.png
+#	new file:   public/scripts/camera/images/patterns/overlay4.png
+#	new file:   public/scripts/camera/images/patterns/overlay5.png
+#	new file:   public/scripts/camera/images/patterns/overlay6.png
+#	new file:   public/scripts/camera/images/patterns/overlay7.png
+#	new file:   public/scripts/camera/images/patterns/overlay8.png
+#	new file:   public/scripts/camera/images/patterns/overlay9.png
+#	new file:   public/scripts/camera/scripts/camera.min.js
+#	new file:   public/scripts/camera/scripts/jquery.mobile.customized.min.js
+#	new file:   public/scripts/carousel/jquery.carouFredSel-6.2.0-packed.js
+#	new file:   public/scripts/carousel/style.css
+#	new file:   public/scripts/default.js
+#	new file:   public/scripts/easing/jquery.easing.1.3.js
+#	new file:   public/scripts/fontawesome/README.md
+#	new file:   public/scripts/fontawesome/css/font-awesome-ie7.min.css
+#	new file:   public/scripts/fontawesome/css/font-awesome.css
+#	new file:   public/scripts/fontawesome/css/font-awesome.min.css
+#	new file:   public/scripts/fontawesome/css/prettify.css
+#	new file:   public/scripts/fontawesome/font/FontAwesome.otf
+#	new file:   public/scripts/fontawesome/font/fontawesome-webfont.eot
+#	new file:   public/scripts/fontawesome/font/fontawesome-webfont.ttf
+#	new file:   public/scripts/fontawesome/font/fontawesome-webfont.woff
+#	new file:   public/scripts/fontawesome/font/museo_slab_300-webfont.eot
+#	new file:   public/scripts/fontawesome/font/museo_slab_300-webfont.ttf
+#	new file:   public/scripts/fontawesome/font/museo_slab_500-webfont.eot
+#	new file:   public/scripts/fontawesome/font/museo_slab_500-webfont.ttf
+#	new file:   public/scripts/fontawesome/font/proximanova-sbold-webfont.eot
+#	new file:   public/scripts/fontawesome/font/proximanova-sbold-webfont.ttf
+#	new file:   public/scripts/fontawesome/font/proximanova-webfont.eot
+#	new file:   public/scripts/fontawesome/font/proximanova-webfont.ttf
+#	new file:   public/scripts/icons/general/demo.html
+#	new file:   public/scripts/icons/general/fonts/general_foundicons.eot
+#	new file:   public/scripts/icons/general/fonts/general_foundicons.svg
+#	new file:   public/scripts/icons/general/fonts/general_foundicons.ttf
+#	new file:   public/scripts/icons/general/fonts/general_foundicons.woff
+#	new file:   public/scripts/icons/general/stylesheets/general_foundicons.css
+#	new file:   public/scripts/icons/general/stylesheets/general_foundicons_ie7.css
+#	new file:   public/scripts/icons/social/demo.html
+#	new file:   public/scripts/icons/social/fonts/.DS_Store
+#	new file:   public/scripts/icons/social/fonts/social_foundicons.eot
+#	new file:   public/scripts/icons/social/fonts/social_foundicons.svg
+#	new file:   public/scripts/icons/social/fonts/social_foundicons.ttf
+#	new file:   public/scripts/icons/social/fonts/social_foundicons.woff
+#	new file:   public/scripts/icons/social/stylesheets/social_foundicons.css
+#	new file:   public/scripts/icons/social/stylesheets/social_foundicons_ie7.css
+#	new file:   public/scripts/jquery-1.7.min.js
+#	new file:   public/scripts/jquery-1.8.2.min.js
+#	new file:   public/scripts/jquery.min.js
+#	new file:   public/scripts/prettyphoto/README
+#	new file:   public/scripts/prettyphoto/css/prettyPhoto.css
+#	new file:   public/scripts/prettyphoto/images/fullscreen/high.gif
+#	new file:   public/scripts/prettyphoto/images/fullscreen/huge.gif
+#	new file:   public/scripts/prettyphoto/images/fullscreen/wide.gif
+#	new file:   public/scripts/prettyphoto/images/prettyPhoto/dark_rounded/btnNext.png
+#	new file:   public/scripts/prettyphoto/images/prettyPhoto/dark_rounded/btnPrevious.png
+#	new file:   public/scripts/prettyphoto/images/prettyPhoto/dark_rounded/contentPattern.png
+#	new file:   public/scripts/prettyphoto/images/prettyPhoto/dark_rounded/default_thumbnail.gif
+#	new file:   public/scripts/prettyphoto/images/prettyPhoto/dark_rounded/loader.gif
+#	new file:   public/scripts/prettyphoto/images/prettyPhoto/dark_rounded/sprite.png
+#	new file:   public/scripts/prettyphoto/images/prettyPhoto/dark_square/btnNext.png
+#	new file:   public/scripts/prettyphoto/images/prettyPhoto/dark_square/btnPrevious.png
+#	new file:   public/scripts/prettyphoto/images/prettyPhoto/dark_square/contentPattern.png
+#	new file:   public/scripts/prettyphoto/images/prettyPhoto/dark_square/default_thumbnail.gif
+#	new file:   public/scripts/prettyphoto/images/prettyPhoto/dark_square/loader.gif
+#	new file:   public/scripts/prettyphoto/images/prettyPhoto/dark_square/sprite.png
+#	new file:   public/scripts/prettyphoto/images/prettyPhoto/default/default_thumb.png
+#	new file:   public/scripts/prettyphoto/images/prettyPhoto/default/loader.gif
+#	new file:   public/scripts/prettyphoto/images/prettyPhoto/default/sprite.png
+#	new file:   public/scripts/prettyphoto/images/prettyPhoto/default/sprite_next.png
+#	new file:   public/scripts/prettyphoto/images/prettyPhoto/default/sprite_prev.png
+#	new file:   public/scripts/prettyphoto/images/prettyPhoto/default/sprite_x.png
+#	new file:   public/scripts/prettyphoto/images/prettyPhoto/default/sprite_y.png
+#	new file:   public/scripts/prettyphoto/images/prettyPhoto/facebook/btnNext.png
+#	new file:   public/scripts/prettyphoto/images/prettyPhoto/facebook/btnPrevious.png
+#	new file:   public/scripts/prettyphoto/images/prettyPhoto/facebook/contentPatternBottom.png
+#	new file:   public/scripts/prettyphoto/images/prettyPhoto/facebook/contentPatternLeft.png
+#	new file:   public/scripts/prettyphoto/images/prettyPhoto/facebook/contentPatternRight.png
+#	new file:   public/scripts/prettyphoto/images/prettyPhoto/facebook/contentPatternTop.png
+#	new file:   public/scripts/prettyphoto/images/prettyPhoto/facebook/default_thumbnail.gif
+#	new file:   public/scripts/prettyphoto/images/prettyPhoto/facebook/loader.gif
+#	new file:   public/scripts/prettyphoto/images/prettyPhoto/facebook/sprite.png
+#	new file:   public/scripts/prettyphoto/images/prettyPhoto/light_rounded/btnNext.png
+#	new file:   public/scripts/prettyphoto/images/prettyPhoto/light_rounded/btnPrevious.png
+#	new file:   public/scripts/prettyphoto/images/prettyPhoto/light_rounded/default_thumbnail.gif
+#	new file:   public/scripts/prettyphoto/images/prettyPhoto/light_rounded/loader.gif
+#	new file:   public/scripts/prettyphoto/images/prettyPhoto/light_rounded/sprite.png
+#	new file:   public/scripts/prettyphoto/images/prettyPhoto/light_square/btnNext.png
+#	new file:   public/scripts/prettyphoto/images/prettyPhoto/light_square/btnPrevious.png
+#	new file:   public/scripts/prettyphoto/images/prettyPhoto/light_square/default_thumbnail.gif
+#	new file:   public/scripts/prettyphoto/images/prettyPhoto/light_square/loader.gif
+#	new file:   public/scripts/prettyphoto/images/prettyPhoto/light_square/sprite.png
+#	new file:   public/scripts/prettyphoto/js/jquery.prettyPhoto.js
+#	new file:   public/scripts/quicksand/README.textile
+#	new file:   public/scripts/quicksand/jquery-animate-css-rotate-scale.js
+#	new file:   public/scripts/quicksand/jquery-css-transform.js
+#	new file:   public/scripts/quicksand/jquery.quicksand.init.js
+#	new file:   public/scripts/quicksand/jquery.quicksand.js
+#	new file:   public/scripts/quicksand/jquery.quicksand122.js
+#	new file:   public/scripts/quicksand/style.css
+#	new file:   public/scripts/vegas/README.md
+#	new file:   public/scripts/vegas/images/loading.gif
+#	new file:   public/scripts/vegas/jquery.vegas.css
+#	new file:   public/scripts/vegas/jquery.vegas.js
+#	new file:   public/scripts/vegas/overlays/01.png
+#	new file:   public/scripts/vegas/overlays/02.png
+#	new file:   public/scripts/vegas/overlays/03.png
+#	new file:   public/scripts/vegas/overlays/04.png
+#	new file:   public/scripts/vegas/overlays/05.png
+#	new file:   public/scripts/vegas/overlays/06.png
+#	new file:   public/scripts/vegas/overlays/07.png
+#	new file:   public/scripts/vegas/overlays/08.png
+#	new file:   public/scripts/vegas/overlays/09.png
+#	new file:   public/scripts/vegas/overlays/10.png
+#	new file:   public/scripts/vegas/overlays/11.png
+#	new file:   public/scripts/vegas/overlays/12.png
+#	new file:   public/scripts/vegas/overlays/13.png
+#	new file:   public/scripts/vegas/overlays/14.png
+#	new file:   public/scripts/vegas/overlays/15.png
+#	new file:   public/scripts/webfont.js
+#	new file:   public/scripts/wookmark/css/reset.css
+#	new file:   public/scripts/wookmark/css/style.css
+#	new file:   public/scripts/wookmark/images/loader.gif
+#	new file:   public/scripts/wookmark/js/jquery.wookmark.js
+#	new file:   public/scripts/yoxview/data/flickr.js
+#	new file:   public/scripts/yoxview/data/flickr.source.js
+#	new file:   public/scripts/yoxview/data/picasa.js
+#	new file:   public/scripts/yoxview/data/picasa.source.js
+#	new file:   public/scripts/yoxview/data/youtube.js
+#	new file:   public/scripts/yoxview/data/youtube.source.js
+#	new file:   public/scripts/yoxview/images/empty.gif
+#	new file:   public/scripts/yoxview/images/help_panel.png
+#	new file:   public/scripts/yoxview/images/left - Copy.png
+#	new file:   public/scripts/yoxview/images/left.pdn
+#	new file:   public/scripts/yoxview/images/left.png
+#	new file:   public/scripts/yoxview/images/left1.png
+#	new file:   public/scripts/yoxview/images/left_empty.png
+#	new file:   public/scripts/yoxview/images/left_eng.png
+#	new file:   public/scripts/yoxview/images/left_prev.png
+#	new file:   public/scripts/yoxview/images/popup_ajax_loader.gif
+#	new file:   public/scripts/yoxview/images/right - Copy.png
+#	new file:   public/scripts/yoxview/images/right.pdn
+#	new file:   public/scripts/yoxview/images/right.png
+#	new file:   public/scripts/yoxview/images/right1.png
+#	new file:   public/scripts/yoxview/images/right_empty.png
+#	new file:   public/scripts/yoxview/images/right_eng.png
+#	new file:   public/scripts/yoxview/images/sprites.png
+#	new file:   public/scripts/yoxview/install.htm
+#	new file:   public/scripts/yoxview/jquery.yoxthumbs.js
+#	new file:   public/scripts/yoxview/jquery.yoxview-2.21-bak.js
+#	new file:   public/scripts/yoxview/jquery.yoxview-2.21.js
+#	new file:   public/scripts/yoxview/jquery.yoxview-2.21.min.js
+#	new file:   public/scripts/yoxview/lang/ar.js
+#	new file:   public/scripts/yoxview/lang/bg.js
+#	new file:   public/scripts/yoxview/lang/ca.js
+#	new file:   public/scripts/yoxview/lang/cs.js
+#	new file:   public/scripts/yoxview/lang/de.js
+#	new file:   public/scripts/yoxview/lang/dk.js
+#	new file:   public/scripts/yoxview/lang/en.js
+#	new file:   public/scripts/yoxview/lang/es.js
+#	new file:   public/scripts/yoxview/lang/fr.js
+#	new file:   public/scripts/yoxview/lang/gr.js
+#	new file:   public/scripts/yoxview/lang/he.js
+#	new file:   public/scripts/yoxview/lang/hu.js
+#	new file:   public/scripts/yoxview/lang/ie.js
+#	new file:   public/scripts/yoxview/lang/ir.js
+#	new file:   public/scripts/yoxview/lang/it.js
+#	new file:   public/scripts/yoxview/lang/ja.js
+#	new file:   public/scripts/yoxview/lang/mk.js
+#	new file:   public/scripts/yoxview/lang/nl.js
+#	new file:   public/scripts/yoxview/lang/pl.js
+#	new file:   public/scripts/yoxview/lang/pt-br.js
+#	new file:   public/scripts/yoxview/lang/pt.js
+#	new file:   public/scripts/yoxview/lang/ro.js
+#	new file:   public/scripts/yoxview/lang/ru.js
+#	new file:   public/scripts/yoxview/lang/sk.js
+#	new file:   public/scripts/yoxview/lang/sl.js
+#	new file:   public/scripts/yoxview/lang/sv.js
+#	new file:   public/scripts/yoxview/lang/tr.js
+#	new file:   public/scripts/yoxview/lang/ua.js
+#	new file:   public/scripts/yoxview/lang/zh-cn.js
+#	new file:   public/scripts/yoxview/lang/zh-tw.js
+#	new file:   public/scripts/yoxview/skins/top_menu/sprites.png
+#	new file:   public/scripts/yoxview/skins/top_menu/yoxview.top_menu.css
+#	new file:   public/scripts/yoxview/skins/top_menu/yoxview.top_menu.js
+#	new file:   public/scripts/yoxview/yox.js
+#	new file:   public/scripts/yoxview/yoxview-init.js
+#	new file:   public/scripts/yoxview/yoxview-nojquery.js
+#	new file:   public/scripts/yoxview/yoxview.css
+#	new file:   resources/views/about.blade.php
+#	modified:   resources/views/welcome.blade.php
+#	modified:   routes/api.php
+#	new file:   show
+#	modified:   storage/app/.gitignore
+#	modified:   storage/app/public/.gitignore
+#	modified:   storage/framework/.gitignore
+#	modified:   storage/framework/cache/.gitignore
+#	modified:   storage/framework/sessions/.gitignore
+#	modified:   storage/framework/testing/.gitignore
+#	modified:   storage/framework/views/.gitignore
+#	modified:   storage/logs/.gitignore
+#
+
+*** File '* Startup Log *'
+Processing '/etc/joe/editorrc'...
+Processing '/etc/joe/ftyperc'...
+Finished processing /etc/joe/ftyperc
+Finished processing /etc/joe/editorrc
+
+*** These modified files were found in JOE when it aborted on Fri Aug 31 16:52:59 2018
+*** JOE was aborted by UNIX signal 1
+
+*** File '(Unnamed)'
+/var/www/html/sensorconnector/.git/COMMIT_EDITMSG
+
+*** File '* Startup Log *'
+Processing '/etc/joe/editorrc'...
+Processing '/etc/joe/ftyperc'...
+Finished processing /etc/joe/ftyperc
+Finished processing /etc/joe/editorrc

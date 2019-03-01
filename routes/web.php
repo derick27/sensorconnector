@@ -14,3 +14,5 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('about','ClientsViewController@getClients');
+Route::get('/','ClientsViewController@getCapteur');

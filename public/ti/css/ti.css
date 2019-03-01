@@ -1,0 +1,45 @@
+thead{
+	background-color:#c0cc7b;
+	line-height:8px;
+	min-height:8px;
+	height:8px;
+
+}
+#mythead{
+	border-bottom: 1px solid black;
+	border-top: 1px solid black;
+	border-right:  1px solid black;
+	border-left: 1px solid black;
+	font-weight: bold;
+	background-color:#c0cc7b;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+tr{
+	line-height:6px;
+	min-height:6px;
+	height:6px;
+	margin-top:1px;
+	margin-bottom: 1px;
+}
+#mytable th{
+	border-bottom: 1px solid black;
+	border-top: 1px solid black;
+	border-right:  1px solid black;
+	border-left: 1px solid black;
+	font-weight: bold;
+	font-family: Helvetica, Arial, sans-serif;
+}
+#mytable td{
+	border-bottom: 1px solid black;
+	border-top: 1px solid black;
+	border-right:  1px solid black;
+	border-left: 1px solid black;
+	font-family: Helvetica, Arial, sans-serif;
+}
+table{
+	margin-left:20px;
+}
+#myInput{
+	width:500px;
+}

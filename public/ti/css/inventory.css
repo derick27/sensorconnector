@@ -1,0 +1,21 @@
+h1{
+	text-align: center;
+}
+#addItem {
+	margin-top:5px;
+    text-align: center;
+   background: linear-gradient(to bottom, white, #808080);
+    display: none;
+    color: black;
+}
+#removeItem {
+	margin-top:5px;
+    text-align: center;
+     background: linear-gradient(to top, white, #808080);
+    color: black;
+    display: none;
+
+}
+table{
+margin-left: 400px;
+}

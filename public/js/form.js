@@ -33,8 +33,8 @@ function div_hideSearch(){
 document.getElementById('searchform').style.display = "none";
 }
 function check_client(){
+	
 	var clientid = document.forms["clientform"]["clientid"].value;
-	var prenom = document.forms["clientform"]["prenom"].value;
 	var nom = document.forms["clientform"]["nom"].value;
 	var youraddr = document.forms["clientform"]["youraddr"].value;
 	var courriel = document.forms["clientform"]["courriel"].value;
@@ -43,10 +43,7 @@ function check_client(){
 		alert("Client ID est requis");
 		return false;
 	}
-	if(prenom ==""){
-		alert("Prenom est requis");
-		return false;
-	}
+
 if(nom==""){
 		alert("Nom  est requis");
 		return false;
@@ -73,9 +70,9 @@ function check_capteur(){
 	 var fai = document.forms["capteurform"]["fai"].value;
 	 var lot = document.forms["capteurform"]["lot"].value;
 	 var initialisele = document.forms["capteurform"]["initialisele"].value;
-	 var initialisea = document.forms["capteurform"]["initialisea"].value;
+	 //var initialisea = document.forms["capteurform"]["initialisea"].value;
 	 var initialisepar = document.forms["capteurform"]["initialisepar"].value;
-	 var siloid = document.forms["capteurform"]["siloid"].value;
+	 //var siloid = document.forms["capteurform"]["siloid"].value;
 	 if(macadresse ==""){
 	 	alert("MAC Adresse is requis");
 	 	return false;
@@ -104,40 +101,42 @@ function check_capteur(){
 	 	alert(" Initialise le is requis");
 	 	return false;
 	 }
-	  if(initialisea ==""){
+	  /*if(initialisea ==""){
 	 	alert("Entrer numero du client");
 	 	return false;
-	 }
+	 }*/
 	  if(initialisepar ==""){
 	 	alert("votre nom is requis");
 	 	return false;
 	 }
-	  if(siloid ==""){
+	  /*if(siloid ==""){
 	 	alert(" Silo ID is requis");
 	 	return false;
-	 }
+	 }*/
 }
 
 function check_silo(){
- var siloid = document.forms["siloform"]["siloid"].value;
+ //var siloid = document.forms["siloform"]["siloid"].value;
  var nom = document.forms["siloform"]["nom"].value;
  var contenu = document.forms["siloform"]["contenu"].value;
- var marque = document.forms["siloform"]["marque"].value;
- var stype = document.forms["siloform"]["stype"].value;
- var modele = document.forms["siloform"]["modele"].value;
+ var densite = document.forms["siloform"]["densite"].value;
+ 
+ //var marque = document.forms["siloform"]["marque"].value;
+ //var stype = document.forms["siloform"]["stype"].value;
+ //var modele = document.forms["siloform"]["modele"].value;
  var serie = document.forms["siloform"]["serie"].value;
  var hducylindre = document.forms["siloform"]["hducylindre"].value;
  var dicylindre = document.forms["siloform"]["dicylindre"].value;
  var hducone = document.forms["siloform"]["hducone"].value;
- var pducone = document.forms["siloform"]["pducone"].value;
- var hglobal = document.forms["siloform"]["hglobal"].value;
- var capacite = document.forms["siloform"]["capacite"].value;
+ //var pducone = document.forms["siloform"]["pducone"].value;
+ //var hglobal = document.forms["siloform"]["hglobal"].value;
+ //var capacite = document.forms["siloform"]["capacite"].value;
  var clientid = document.forms["siloform"]["clientid"].value;
-
- if(siloid ==""){
+ var macad = document.forms["siloform"]["macad"].value;
+ /*if(siloid ==""){
  	alert("Entrer Silo ID");
  	return false;
- }
+ }*/
  if(nom ==""){
  	alert("Entrer Nom");
  	return false;
@@ -146,7 +145,13 @@ function check_silo(){
  	alert("Entrer Contenu");
  	return false;
  }
- if(marque ==""){
+ if(densite ==""){
+ 	alert("Entrer densite");
+ 	return false;
+ }
+ 
+
+ /*if(marque ==""){
  	alert("Entrer Marque");
  	return false;
  }
@@ -157,7 +162,7 @@ function check_silo(){
  if(modele ==""){
  	alert("Entrer  Modele");
  	return false;
- }
+ }*/
  if(serie ==""){
  	alert("Entrer # serie");
  	return false;
@@ -174,7 +179,7 @@ function check_silo(){
  	alert("Entrer hauteur du cone");
  	return false;
  }
- if(pducone ==""){
+ /*if(pducone ==""){
  	alert("Entrer pente du cone");
  	return false;
  }
@@ -185,9 +190,40 @@ function check_silo(){
  if(capacite ==""){
  	alert("Entrer capacite estimé");
  	return false;
- }
+ } */
  if(clientid ==""){
  	alert("Entrer Client ID");
  	return false;
  }
+ if(macad ==""){
+ 	alert("Entrer MAC Adresse de capteur");
+ 	return false;
+ }
 }
+function check_number(){
+	var producteur =document.forms["searchform"]["producteur"].value;
+	var num =document.forms["searchform"]["nombre"].value;
+	var inputa =document.forms["searchform"]["inputa"].value;
+	var inputb =document.forms["searchform"]["inputb"].value;
+	if (producteur=="") {
+        alert("Choisir an capteur");
+        return false;
+    } 
+    if (num=="" || isNaN(num)) {
+        alert("entrer un valide chiffre");
+        return false;
+    } 
+  
+    if (inputa=="") {
+        alert("entrer date de");
+        return false;
+    } 
+    if (inputb=="") {
+        alert("entrer date a");
+        return false;
+    } 
+	
+	
+}
+
+

@@ -1,0 +1,34 @@
+.jumbotron{
+	background-color:#006400;
+	margin-top:5px;
+	margin-right:5px;
+	margin-bottom:5px; 
+	margin-left:5px;
+}
+ h1{
+	color:white;
+}
+ p{
+	color:white;
+}
+ 
+#divFooter{
+    margin-right:1px;
+    margin-left:5px;
+    left: 0;
+    bottom: 0;
+    width:99%;
+    height:300px;
+    margin-bottom:5px;
+    background-color:#006400;
+    color: white;
+    text-align: center;
+}
+.footer-copyright{
+    background-color:#556B2F;
+    height:50px;
+    left:5px;
+    right:5px;
+    width:100%;
+    text-align:center;
+}
